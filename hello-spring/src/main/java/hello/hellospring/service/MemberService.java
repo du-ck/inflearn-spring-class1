@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 public class MemberService {
     //서비스 클래스는 비즈니스 용어에 가깝게 네이밍 해야함
     //repository 클래스는 기계적으로, 개발스럽게 네이밍
@@ -42,7 +41,7 @@ public class MemberService {
     /**
      * 전체회원 조회
      */
-    public List<Member> findMember() {
+    public List<Member> findMembers() {
         return memberRepository.findAll();
     }
 
