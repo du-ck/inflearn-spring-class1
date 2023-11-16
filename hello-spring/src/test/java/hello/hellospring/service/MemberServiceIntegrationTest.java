@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
  * 롤백을 해준다.
  */
 @SpringBootTest
-//@Transactional
+@Transactional
 class MemberServiceIntegrationTest {
 //테스트 할 메서드가 있는 클래스에서 ctrl+shift+T 로 바로 테스트 클래스 생성 가능
 
